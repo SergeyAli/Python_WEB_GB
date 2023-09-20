@@ -10,7 +10,7 @@ S = requests.Session()
 
 @pytest.fixture()
 def user_login():
-    result = S.post(url=data['url'], data={'username': data['your_login'], 'password': data['your_password']})
+    result = S.post(url=data['url'], data={'username': data['login'], 'password': data['password']})
     response_json = result.json()
     token = response_json.get('token')
     return token
@@ -18,4 +18,4 @@ def user_login():
 
 @pytest.fixture()
 def post_title():
-    return 'Мои мечты'
+    return '"vrgdgr"'

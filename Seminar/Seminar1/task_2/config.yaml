@@ -1,5 +1,8 @@
 url: https://test-stand.gb.ru/gateway/login
 address: https://test-stand.gb.ru/api/posts
 
-login: your_login
-password: your_password
+#login: your_login
+#password: your_password
+
+login: Sem92115
+password: 94dde20d03
