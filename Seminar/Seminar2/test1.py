@@ -27,7 +27,7 @@ def test_step2(x_selector1, x_selector2, x_selector4, btn_selector, account_name
     input1.send_keys(testdata["login"])
     input2 = site.find_element("xpath", x_selector2)
     input2.clear()
-    input2.send_keys(testdata["password"])
+    input2.send_keys(testdata["pswd"])
     btn = site.find_element("css", btn_selector)
     btn.click()
     code_label = site.find_element("xpath", x_selector4).text
