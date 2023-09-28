@@ -1,0 +1,33 @@
+2023-09-28 18:42:14 INFO ====== WebDriver manager ======
+2023-09-28 18:42:15 INFO Get LATEST chromedriver version for google-chrome
+2023-09-28 18:42:15 INFO Get LATEST chromedriver version for google-chrome
+2023-09-28 18:42:15 INFO There is no [win64] chromedriver "117.0.5938.92" for browser google-chrome "117.0.5938.92" in cache
+2023-09-28 18:42:15 INFO Get LATEST chromedriver version for google-chrome
+2023-09-28 18:42:17 INFO WebDriver version 117.0.5938.92 selected
+2023-09-28 18:42:17 INFO Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.92/win32/chromedriver-win32.zip
+2023-09-28 18:42:17 INFO About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.92/win32/chromedriver-win32.zip
+2023-09-28 18:42:17 INFO Driver downloading response is 200
+2023-09-28 18:42:19 INFO Get LATEST chromedriver version for google-chrome
+2023-09-28 18:42:19 INFO Driver has been saved in cache [C:\Users\Leon\.wdm\drivers\chromedriver\win64\117.0.5938.92]
+2023-09-28 18:42:20 INFO Test login_negative Starting
+2023-09-28 18:42:33 INFO Send 'test' to element //*[@id="login"]/div[1]/label/input
+2023-09-28 18:42:33 INFO Send 'test' to element //*[@id="login"]/div[2]/label/input
+2023-09-28 18:42:33 INFO Click login button
+2023-09-28 18:42:33 INFO Start find error text
+2023-09-28 18:42:34 INFO We find text '401' in error field //*[@id="app"]/main/div/div/div[2]/h2
+2023-09-28 18:42:34 INFO Test login_positive Starting
+2023-09-28 18:42:34 INFO Send 'Sem92115' to element //*[@id="login"]/div[1]/label/input
+2023-09-28 18:42:34 INFO Send '94dde20d03' to element //*[@id="login"]/div[2]/label/input
+2023-09-28 18:42:34 INFO Click login button
+2023-09-28 18:42:34 INFO Start find success text
+2023-09-28 18:42:36 INFO We find text 'Hello, Sem92115' in login field //*[@id="app"]/main/nav/ul/li[3]/a
+2023-09-28 18:42:36 INFO Test add_post Starting
+2023-09-28 18:42:36 INFO Click add post button
+2023-09-28 18:42:38 INFO Send 'THE NEW POST CREATED BY SELENIUM' to element //*[@id="create-item"]/div/div/div[1]/div/label/input
+2023-09-28 18:42:38 INFO Send 'SELENIUM HERE!' to element //*[@id="create-item"]/div/div/div[2]/div/label/span/textarea
+2023-09-28 18:42:38 INFO Send 'THIS IS CONTENT POSTET BY SELENIUM!' to element //*[@id="create-item"]/div/div/div[3]/div/label/span/textarea
+2023-09-28 18:42:38 INFO Click save post button
+2023-09-28 18:42:38 INFO Start find new post
+2023-09-28 18:42:39 INFO We find new post title 'THE NEW POST CREATED BY SELENIUM' in field //*[@id="app"]/main/nav/ul/li[3]/a
+2023-09-28 18:42:39 INFO Start find new post
+2023-09-28 18:42:40 INFO We find new post title 'THE NEW POST CREATED BY SELENIUM' in field //*[@id="app"]/main/nav/ul/li[3]/a
