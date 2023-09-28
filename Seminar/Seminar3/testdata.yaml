@@ -1,0 +1,11 @@
+address: https://test-stand.gb.ru
+browser: chrome
+sleep_time: 1
+
+login: Sem92115
+password: 94dde20d03
+
+
+title: THE NEW POST CREATED BY SELENIUM
+description: SELENIUM HERE!
+content: THIS IS CONTENT POSTET BY SELENIUM!
