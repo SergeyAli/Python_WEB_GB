@@ -5,7 +5,13 @@ sleep_time: 1
 login: Sem92115
 password: 94dde20d03
 
+title: THE NEW POST CREATED BY SELENIUM
+description: SELENIUM HERE!
+content: THIS IS CONTENT POSTET BY SELENIUM!
 
+u_name: Sergey
+u_email: Sergey.T@mail.ru
+content_contact: One of them has interesting and useful things to say, but can not get their point across. In that case, you need an interpreter.
 #address: https://test-stand.gb.ru
 ##browser: firefox
 #browser: chrome
