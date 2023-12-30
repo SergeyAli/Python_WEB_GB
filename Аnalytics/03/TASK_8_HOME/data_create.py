@@ -16,7 +16,8 @@ def phone_data():
     phone = input('Введите Ваш телефон: ')
     return phone
 
- def address_data():
-     """Функция ввода адреса"""
+def address_data():
+    """Функция ввода адреса"""
     address = input('Введите Ваш адрес: ')
     return address
+
