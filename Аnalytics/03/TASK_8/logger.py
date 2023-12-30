@@ -14,7 +14,7 @@ def input_data():
     f"{name};{surname};{phone};{address}\n"
     f"Выберете вариант: "))
     while var != 1 and var != 2:
-        print("Неправельный ввод ")
+        print("Неправильный ввод ")
         var = int(input('Введите число '))
 
     if var == 1:
